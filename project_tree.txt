@@ -1,0 +1,82 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 528D-340D
+C:.
+|   .gitignore
+|   PROJECT_SUMMARY.md
+|   project_tree.txt
+|   README.md
+|   requirements.txt
+|   
++---api
+|   |   ehr_endpoints.py
+|   |   main.py
+|   |   
+|   \---__pycache__
+|           ehr_endpoints.cpython-313.pyc
+|           main.cpython-313.pyc
+|           
++---app
+|   |   main.py
+|   |   
+|   \---__pycache__
+|           main.cpython-313.pyc
+|           
++---config
+|       settings.py
+|       __init__.py
+|       
++---data
+|       triage_golden_50.csv
+|       
++---docs
+|       API_DOCUMENTATION.md
+|       DEPLOYMENT.md
+|       design.md
+|       PROJECT_STRUCTURE.md
+|       QUICK_REFERENCE.md
+|       requirements.md
+|       SETUP.md
+|       
++---integrations
+|   |   ehr_adapter.py
+|   |   fhir_integration.py
+|   |   hl7_integration.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           ehr_adapter.cpython-313.pyc
+|           fhir_integration.cpython-313.pyc
+|           hl7_integration.cpython-313.pyc
+|           __init__.cpython-313.pyc
+|           
++---ml
+|   \---models
+|           dept_encoder.pkl
+|           dept_model.pkl
+|           metadata.pkl
+|           risk_encoder.pkl
+|           risk_model.pkl
+|           scaler.pkl
+|           
++---scripts
+|       generate_golden_50.py
+|       run_api.py
+|       run_dashboard.py
+|       train_final.py
+|       __init__.py
+|       
++---tests
+|       example_document_upload.py
+|       test_api.py
+|       test_ehr_integration.py
+|       test_parser_with_dataset.py
+|       __init__.py
+|       
+\---utils
+    |   auth.py
+    |   parser.py
+    |   
+    \---__pycache__
+            auth.cpython-313.pyc
+            parser.cpython-313.pyc
+            
